@@ -14,10 +14,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const {rArray, aArray, iArray, sArray, eArray, cArray} = require('./personalityArrays.js')
 
-//API key
+
 const configuration = new Configuration({
     // apiKey: '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',
-    apiKey: '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'
+    apiKey: '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'
   });
   
   const openai = new OpenAIApi(configuration);
